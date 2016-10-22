@@ -1,0 +1,14 @@
+---
+title: "SimpleFunction"
+author: "Kevin Cannon"
+date: "October 22, 2016"
+output: html_document
+---
+
+# Example code for using RStudio with Git and GitHub
+
+```{r}
+se <- function(x) {
+  sd(x)/length(x)
+}
+```
